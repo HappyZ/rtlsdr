@@ -1,0 +1,2097 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              874A5C69C0784F06B88748C6 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = C92AE96214394326AE7EC80F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            7F2FF13E29BB480C898C2405 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            ACCBD96A9FD94A93988170F6 /* PBXTargetDependency */,
+                            08C7ED7021F14271B4B97596 /* PBXTargetDependency */,
+                            F67E6C8070B345419F42ADD5 /* PBXTargetDependency */,
+                            C003C9D8BCED4281B8AC6230 /* PBXTargetDependency */,
+                            EAB52C8C8AB0409882E92495 /* PBXTargetDependency */,
+                            4FC3F261154B421E9DB118EC /* PBXTargetDependency */,
+                            6550DB11E23345F69416A5EC /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              8D2D540AE8394A889E0AC327 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 096E8BF61A5B4B868C8207A5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            A3F93D98D0844D34895E300F /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              E6503EBF0BE44E09BD04C8B0 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = E3E0A5C5C59F474A89908AB0 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            7C65EBBF976246C3865A4B60 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            E62AED341556495F90AC9FF2 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+              52E1AD682485472B8DA22AF9 /* uninstall */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 52F81B3A341F487FA3028DF8 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+                     buildPhases = (
+                            8CD71811D16C414A90DB46D6 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            9C5AC14915764D08B950A60F /* PBXTargetDependency */,
+                     );
+                     name = uninstall;
+                     productName = uninstall;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+263C51E7C41E487197AA5EA6 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DDD2CB9307114EF180057114 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+10098287384D490EB88032BD /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_fm.c */ = {isa = PBXBuildFile; fileRef = 98412923B97548D7BC5DB662 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_fm.c */; settings = { COMPILER_FLAGS = ""; }; };
+E8973D289EE44E02BC99255F /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DDD2CB9307114EF180057114 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+77436A9FD86D434EB6200EA7 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_sdr.c */ = {isa = PBXBuildFile; fileRef = 04CDB0BE2B544FB1849B56E5 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_sdr.c */; settings = { COMPILER_FLAGS = ""; }; };
+2D01149F48E54A53A7F7A0F6 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DDD2CB9307114EF180057114 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+8F8051A7A4DF4A67A1DE3F48 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_tcp.c */ = {isa = PBXBuildFile; fileRef = D07022D687BC4B6F999683B9 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_tcp.c */; settings = { COMPILER_FLAGS = ""; }; };
+00AF5F8413DE4F3491BA3A7B /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DDD2CB9307114EF180057114 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+07A153A89A5F49D5A0A4047B /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_test.c */ = {isa = PBXBuildFile; fileRef = EE7DB8FEF0B247F092BAE97F /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_test.c */; settings = { COMPILER_FLAGS = ""; }; };
+793FE232F3BF4BF4B4BCFDA0 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DDD2CB9307114EF180057114 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+E1D29EDE44DB4B539162A232 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/librtlsdr.c */ = {isa = PBXBuildFile; fileRef = C56D0CBF08724CBBBCD95ECF /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/librtlsdr.c */; settings = { COMPILER_FLAGS = ""; }; };
+F922600549894C23B80224A6 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_e4k.c */ = {isa = PBXBuildFile; fileRef = 5D89AD9029804D50A14F97C7 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_e4k.c */; settings = { COMPILER_FLAGS = ""; }; };
+7EC38D878D954CFF91BB2FAD /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc0012.c */ = {isa = PBXBuildFile; fileRef = 6E0ABC2F276C4A2F8936422B /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc0012.c */; settings = { COMPILER_FLAGS = ""; }; };
+EF3E9F75EA4548B1AA9BCEDC /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc0013.c */ = {isa = PBXBuildFile; fileRef = ED330AF1687044B8991542D9 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc0013.c */; settings = { COMPILER_FLAGS = ""; }; };
+2BEE529425234CF092CA8E9B /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc2580.c */ = {isa = PBXBuildFile; fileRef = CECA4F5A784848C3BB93F5E9 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc2580.c */; settings = { COMPILER_FLAGS = ""; }; };
+403C1BDE025A41DBBF1206A8 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_r820t.c */ = {isa = PBXBuildFile; fileRef = 2AD493E3E23F4CF1AF4DCDE1 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_r820t.c */; settings = { COMPILER_FLAGS = ""; }; };
+71249D48BD384ECDA5DCF221 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DDD2CB9307114EF180057114 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+71A42F191E0E4C2986250A3E /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/librtlsdr.c */ = {isa = PBXBuildFile; fileRef = C56D0CBF08724CBBBCD95ECF /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/librtlsdr.c */; settings = { COMPILER_FLAGS = ""; }; };
+8830951460E14398BC5AC838 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_e4k.c */ = {isa = PBXBuildFile; fileRef = 5D89AD9029804D50A14F97C7 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_e4k.c */; settings = { COMPILER_FLAGS = ""; }; };
+6F4E34B1411B422493678041 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc0012.c */ = {isa = PBXBuildFile; fileRef = 6E0ABC2F276C4A2F8936422B /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc0012.c */; settings = { COMPILER_FLAGS = ""; }; };
+E537B721B274481089BEBCFD /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc0013.c */ = {isa = PBXBuildFile; fileRef = ED330AF1687044B8991542D9 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc0013.c */; settings = { COMPILER_FLAGS = ""; }; };
+522D0D9143F649C29AD3901F /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc2580.c */ = {isa = PBXBuildFile; fileRef = CECA4F5A784848C3BB93F5E9 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc2580.c */; settings = { COMPILER_FLAGS = ""; }; };
+4D5F8D40FC40462D966E39A8 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_r820t.c */ = {isa = PBXBuildFile; fileRef = 2AD493E3E23F4CF1AF4DCDE1 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_r820t.c */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              ECE32DD146D94CDAA69C72B8 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              ABF5375BF52D4357B29FC99A /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              2512B8DA3125419C810385FF /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              CEFF88EA5A204D2E809815BF /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              69DB1096D4404F86B37A16B5 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              DD1636B049654DCCAD2434EB /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0CFBCD0AC7484FDDB8BA0E7A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 8D2D540AE8394A889E0AC327;
+                     remoteInfo = ZERO_CHECK;
+              };
+              B8F2B38D15D14517A4CC788F /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0CFBCD0AC7484FDDB8BA0E7A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 6A579546F3994F42BEBAEB9C;
+                     remoteInfo = rtlsdr_shared;
+              };
+              83ED69CBDB3E4E83AC345646 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0CFBCD0AC7484FDDB8BA0E7A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 8E7DEB521A47409AAB6CCD00;
+                     remoteInfo = rtlsdr_static;
+              };
+              2A4E26B1C6BE4476A14CE1AB /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0CFBCD0AC7484FDDB8BA0E7A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = C5DC821648624F97870FA7D0;
+                     remoteInfo = rtl_sdr;
+              };
+              208A1ABDB8334D30B405EFDA /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0CFBCD0AC7484FDDB8BA0E7A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 36CAED5DBC8D4D258D770951;
+                     remoteInfo = rtl_tcp;
+              };
+              F94AB185DABF46FBA69C6D53 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0CFBCD0AC7484FDDB8BA0E7A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = F25DC55F98A1453395FCE412;
+                     remoteInfo = rtl_test;
+              };
+              A9549217951B4030A19C8BEB /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0CFBCD0AC7484FDDB8BA0E7A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 7C90F4355F624637BE90B583;
+                     remoteInfo = rtl_fm;
+              };
+              682B3FC924D0487EB8650ACD /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0CFBCD0AC7484FDDB8BA0E7A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 874A5C69C0784F06B88748C6;
+                     remoteInfo = ALL_BUILD;
+              };
+              24C5682E29EE4E899154F63A /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0CFBCD0AC7484FDDB8BA0E7A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 8D2D540AE8394A889E0AC327;
+                     remoteInfo = ZERO_CHECK;
+              };
+              9241E225C0694103BB4C1EBB /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0CFBCD0AC7484FDDB8BA0E7A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 8D2D540AE8394A889E0AC327;
+                     remoteInfo = ZERO_CHECK;
+              };
+              A659B969267A45F3B105FA2B /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0CFBCD0AC7484FDDB8BA0E7A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 6A579546F3994F42BEBAEB9C;
+                     remoteInfo = rtlsdr_shared;
+              };
+              1825FF70FFE14A3E9D9E8572 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0CFBCD0AC7484FDDB8BA0E7A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 8D2D540AE8394A889E0AC327;
+                     remoteInfo = ZERO_CHECK;
+              };
+              7F7E8095A07143498CC4999B /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0CFBCD0AC7484FDDB8BA0E7A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 6A579546F3994F42BEBAEB9C;
+                     remoteInfo = rtlsdr_shared;
+              };
+              C254BB098ACE4400B4F471B6 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0CFBCD0AC7484FDDB8BA0E7A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 8D2D540AE8394A889E0AC327;
+                     remoteInfo = ZERO_CHECK;
+              };
+              9013898CE9064AE4A47DB469 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0CFBCD0AC7484FDDB8BA0E7A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 6A579546F3994F42BEBAEB9C;
+                     remoteInfo = rtlsdr_shared;
+              };
+              BBD32E73FB54424CAB3B8F92 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0CFBCD0AC7484FDDB8BA0E7A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 8D2D540AE8394A889E0AC327;
+                     remoteInfo = ZERO_CHECK;
+              };
+              8E951EE2BEF34219AEB28C09 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0CFBCD0AC7484FDDB8BA0E7A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 6A579546F3994F42BEBAEB9C;
+                     remoteInfo = rtlsdr_shared;
+              };
+              EC4C79B6C97A4F35AB8C06AC /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0CFBCD0AC7484FDDB8BA0E7A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 8D2D540AE8394A889E0AC327;
+                     remoteInfo = ZERO_CHECK;
+              };
+              714C771277A04790ACE66358 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0CFBCD0AC7484FDDB8BA0E7A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 8D2D540AE8394A889E0AC327;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+97AAC793B42240DD9037C7EC /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+DDD2CB9307114EF180057114 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+98412923B97548D7BC5DB662 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_fm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "rtl_fm.c"; path = "src/rtl_fm.c"; sourceTree = SOURCE_ROOT; };
+8B0B8BE9D0CD4116806C08C8 /* rtl_fm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = rtl_fm; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+04CDB0BE2B544FB1849B56E5 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_sdr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "rtl_sdr.c"; path = "src/rtl_sdr.c"; sourceTree = SOURCE_ROOT; };
+691A94A9EC8E46AC9A7BDB5D /* rtl_sdr */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = rtl_sdr; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+D07022D687BC4B6F999683B9 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_tcp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "rtl_tcp.c"; path = "src/rtl_tcp.c"; sourceTree = SOURCE_ROOT; };
+740CFC3EE6634B0E85313374 /* rtl_tcp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = rtl_tcp; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+EE7DB8FEF0B247F092BAE97F /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "rtl_test.c"; path = "src/rtl_test.c"; sourceTree = SOURCE_ROOT; };
+85ADFAFCBD494A688A28FB88 /* rtl_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = rtl_test; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+C56D0CBF08724CBBBCD95ECF /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/librtlsdr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "librtlsdr.c"; path = "src/librtlsdr.c"; sourceTree = SOURCE_ROOT; };
+5D89AD9029804D50A14F97C7 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_e4k.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "tuner_e4k.c"; path = "src/tuner_e4k.c"; sourceTree = SOURCE_ROOT; };
+6E0ABC2F276C4A2F8936422B /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc0012.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "tuner_fc0012.c"; path = "src/tuner_fc0012.c"; sourceTree = SOURCE_ROOT; };
+ED330AF1687044B8991542D9 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc0013.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "tuner_fc0013.c"; path = "src/tuner_fc0013.c"; sourceTree = SOURCE_ROOT; };
+CECA4F5A784848C3BB93F5E9 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc2580.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "tuner_fc2580.c"; path = "src/tuner_fc2580.c"; sourceTree = SOURCE_ROOT; };
+2AD493E3E23F4CF1AF4DCDE1 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_r820t.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "tuner_r820t.c"; path = "src/tuner_r820t.c"; sourceTree = SOURCE_ROOT; };
+B3C5306432AE45F8A91CE7AF /* rtlsdr_shared */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "librtlsdr.dylib"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+E63386EB4BF949B8A1BBE709 /* rtlsdr_static */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "librtlsdr.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              996C25A0CEF0490D8291E0F1  = {
+                     isa = PBXGroup;
+                     children = (
+                            9257FA07011842A88CC7B790 /* Sources */,
+                            B672705AF49E43A3B09CC4A6 /* Resources */,
+                            FCE63B3934E0414786683EB1 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              9257FA07011842A88CC7B790 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            447B74032AC7428EB97B1828 /* ALL_BUILD */,
+                            EE537D927CE04265AFED0336 /* ZERO_CHECK */,
+                            7287EE16C7944DB2A68A3719 /* uninstall */,
+                            C9CB72E3F56E477291F7964A /* rtl_fm */,
+                            5F243A1EC3F14CCC9CE12C8F /* rtl_sdr */,
+                            66B4B80C7D8F462FB4C300B7 /* rtl_tcp */,
+                            C9A425AB9CF04A0CA4FD9B99 /* rtl_test */,
+                            E91A1063B53F4F008D8AD925 /* rtlsdr_shared */,
+                            05D932B1EEF24BFFAA1ED575 /* rtlsdr_static */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              B672705AF49E43A3B09CC4A6 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              447B74032AC7428EB97B1828 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            855CB044961C4618A3989583 /* CMake Rules */,
+                            97AAC793B42240DD9037C7EC /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              855CB044961C4618A3989583 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              EE537D927CE04265AFED0336 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            4DDFAC683F5F456286196DD7 /* CMake Rules */,
+                            97AAC793B42240DD9037C7EC /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              4DDFAC683F5F456286196DD7 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              7287EE16C7944DB2A68A3719 /* uninstall */ = {
+                     isa = PBXGroup;
+                     children = (
+                            DD4E26AD3CF24697BBCD06F2 /* CMake Rules */,
+                            97AAC793B42240DD9037C7EC /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/CMakeLists.txt */,
+                     );
+                     name = uninstall;
+                     sourceTree = "<group>";
+              };
+              DD4E26AD3CF24697BBCD06F2 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              C9CB72E3F56E477291F7964A /* rtl_fm */ = {
+                     isa = PBXGroup;
+                     children = (
+                            420D8A9B3BEC41FDA594E6C6 /* Source Files */,
+                            DDD2CB9307114EF180057114 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeLists.txt */,
+                     );
+                     name = rtl_fm;
+                     sourceTree = "<group>";
+              };
+              420D8A9B3BEC41FDA594E6C6 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            98412923B97548D7BC5DB662 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_fm.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              5F243A1EC3F14CCC9CE12C8F /* rtl_sdr */ = {
+                     isa = PBXGroup;
+                     children = (
+                            DEC71CE082EA43359DD2D939 /* Source Files */,
+                            DDD2CB9307114EF180057114 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeLists.txt */,
+                     );
+                     name = rtl_sdr;
+                     sourceTree = "<group>";
+              };
+              DEC71CE082EA43359DD2D939 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            04CDB0BE2B544FB1849B56E5 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_sdr.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              66B4B80C7D8F462FB4C300B7 /* rtl_tcp */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B5FB87A948274F8E828A8715 /* Source Files */,
+                            DDD2CB9307114EF180057114 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeLists.txt */,
+                     );
+                     name = rtl_tcp;
+                     sourceTree = "<group>";
+              };
+              B5FB87A948274F8E828A8715 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            D07022D687BC4B6F999683B9 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_tcp.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              C9A425AB9CF04A0CA4FD9B99 /* rtl_test */ = {
+                     isa = PBXGroup;
+                     children = (
+                            293AD140A51B496BB2121E4D /* Source Files */,
+                            DDD2CB9307114EF180057114 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeLists.txt */,
+                     );
+                     name = rtl_test;
+                     sourceTree = "<group>";
+              };
+              293AD140A51B496BB2121E4D /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            EE7DB8FEF0B247F092BAE97F /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_test.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              E91A1063B53F4F008D8AD925 /* rtlsdr_shared */ = {
+                     isa = PBXGroup;
+                     children = (
+                            72DFF331FF2849429990ACA8 /* Source Files */,
+                            DDD2CB9307114EF180057114 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeLists.txt */,
+                     );
+                     name = rtlsdr_shared;
+                     sourceTree = "<group>";
+              };
+              72DFF331FF2849429990ACA8 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C56D0CBF08724CBBBCD95ECF /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/librtlsdr.c */,
+                            5D89AD9029804D50A14F97C7 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_e4k.c */,
+                            6E0ABC2F276C4A2F8936422B /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc0012.c */,
+                            ED330AF1687044B8991542D9 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc0013.c */,
+                            CECA4F5A784848C3BB93F5E9 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc2580.c */,
+                            2AD493E3E23F4CF1AF4DCDE1 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_r820t.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              05D932B1EEF24BFFAA1ED575 /* rtlsdr_static */ = {
+                     isa = PBXGroup;
+                     children = (
+                            9C0C23084E9340D1B331A6EA /* Source Files */,
+                            DDD2CB9307114EF180057114 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeLists.txt */,
+                     );
+                     name = rtlsdr_static;
+                     sourceTree = "<group>";
+              };
+              9C0C23084E9340D1B331A6EA /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C56D0CBF08724CBBBCD95ECF /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/librtlsdr.c */,
+                            5D89AD9029804D50A14F97C7 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_e4k.c */,
+                            6E0ABC2F276C4A2F8936422B /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc0012.c */,
+                            ED330AF1687044B8991542D9 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc0013.c */,
+                            CECA4F5A784848C3BB93F5E9 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc2580.c */,
+                            2AD493E3E23F4CF1AF4DCDE1 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_r820t.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              FCE63B3934E0414786683EB1 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8B0B8BE9D0CD4116806C08C8 /* rtl_fm */,
+                            691A94A9EC8E46AC9A7BDB5D /* rtl_sdr */,
+                            740CFC3EE6634B0E85313374 /* rtl_tcp */,
+                            85ADFAFCBD494A688A28FB88 /* rtl_test */,
+                            B3C5306432AE45F8A91CE7AF /* rtlsdr_shared */,
+                            E63386EB4BF949B8A1BBE709 /* rtlsdr_static */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              7C90F4355F624637BE90B583 /* rtl_fm */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = C9B94A2CC79E414EB0806C9E /* Build configuration list for PBXNativeTarget "rtl_fm" */;
+                     buildPhases = (
+                            941E94B9591C414B908EF757 /* Sources */,
+                            0BE79C860BBE4672A8F5BC90 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            9ABBAA155D42446684857C0E /* PBXTargetDependency */,
+                            5032693A2AF049AE94044254 /* PBXTargetDependency */,
+                     );
+                     name = rtl_fm;
+                     productName = rtl_fm;
+                     productReference = 8B0B8BE9D0CD4116806C08C8 /* rtl_fm */;
+                     productType = "com.apple.product-type.tool";
+              };
+              C5DC821648624F97870FA7D0 /* rtl_sdr */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = B228A8353DB04C54B35157DE /* Build configuration list for PBXNativeTarget "rtl_sdr" */;
+                     buildPhases = (
+                            A582CD1760D041FB91F011BA /* Sources */,
+                            24386D2D80B84FB09702FF9D /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            4BC902C2CE9E4313A025BD21 /* PBXTargetDependency */,
+                            BF70C6E5CD204901958C937F /* PBXTargetDependency */,
+                     );
+                     name = rtl_sdr;
+                     productName = rtl_sdr;
+                     productReference = 691A94A9EC8E46AC9A7BDB5D /* rtl_sdr */;
+                     productType = "com.apple.product-type.tool";
+              };
+              36CAED5DBC8D4D258D770951 /* rtl_tcp */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = B9C7665F87B245CAA564DD0C /* Build configuration list for PBXNativeTarget "rtl_tcp" */;
+                     buildPhases = (
+                            CC2EC215AD504B55BF7849A0 /* Sources */,
+                            8EB8A2F1BB2547E7B615D8FA /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            B8140EA3E94045CE8C52D9AA /* PBXTargetDependency */,
+                            70D40A5FEDFD44599FEDC23C /* PBXTargetDependency */,
+                     );
+                     name = rtl_tcp;
+                     productName = rtl_tcp;
+                     productReference = 740CFC3EE6634B0E85313374 /* rtl_tcp */;
+                     productType = "com.apple.product-type.tool";
+              };
+              F25DC55F98A1453395FCE412 /* rtl_test */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = F4EC977373CF434A9B59C54A /* Build configuration list for PBXNativeTarget "rtl_test" */;
+                     buildPhases = (
+                            3DD5F308E31D479C99314FC3 /* Sources */,
+                            4D61B6D6C31D4EC8A7906305 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            23DE8B910281434A991047E4 /* PBXTargetDependency */,
+                            9106C76947044CBABA4CF3B3 /* PBXTargetDependency */,
+                     );
+                     name = rtl_test;
+                     productName = rtl_test;
+                     productReference = 85ADFAFCBD494A688A28FB88 /* rtl_test */;
+                     productType = "com.apple.product-type.tool";
+              };
+              6A579546F3994F42BEBAEB9C /* rtlsdr_shared */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = C44E8577AB85418E83821BDB /* Build configuration list for PBXNativeTarget "rtlsdr_shared" */;
+                     buildPhases = (
+                            54E4CE98676A418087FAF9B7 /* Sources */,
+                            07D5AD66D55C4A10BD47E10F /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            F003AC74E2884A0A8A9CB639 /* PBXTargetDependency */,
+                     );
+                     name = rtlsdr_shared;
+                     productName = rtlsdr_shared;
+                     productReference = B3C5306432AE45F8A91CE7AF /* rtlsdr_shared */;
+                     productType = "com.apple.product-type.library.dynamic";
+              };
+              8E7DEB521A47409AAB6CCD00 /* rtlsdr_static */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 15572508767F411C90919787 /* Build configuration list for PBXNativeTarget "rtlsdr_static" */;
+                     buildPhases = (
+                            9B8576D230AC4A66ACE63363 /* Sources */,
+                            EA5D4515672D4391A8BF1B71 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            E218675E6C3D43A088E42057 /* PBXTargetDependency */,
+                     );
+                     name = rtlsdr_static;
+                     productName = rtlsdr_static;
+                     productReference = E63386EB4BF949B8A1BBE709 /* rtlsdr_static */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              0CFBCD0AC7484FDDB8BA0E7A /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 1D711AC6066E4B31A5412D4D /* Build configuration list for PBXProject  "rtlsdr" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            ABF5375BF52D4357B29FC99A /* Debug */,
+                            2512B8DA3125419C810385FF /* Release */,
+                            CEFF88EA5A204D2E809815BF /* MinSizeRel */,
+                            69DB1096D4404F86B37A16B5 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 996C25A0CEF0490D8291E0F1;
+                     projectDirPath = ".";
+                     projectRoot = "";
+                     targets = (
+                            874A5C69C0784F06B88748C6 /* ALL_BUILD */,
+                            8D2D540AE8394A889E0AC327 /* ZERO_CHECK */,
+                            E6503EBF0BE44E09BD04C8B0 /* install */,
+                            52E1AD682485472B8DA22AF9 /* uninstall */,
+                            7C90F4355F624637BE90B583 /* rtl_fm */,
+                            C5DC821648624F97870FA7D0 /* rtl_sdr */,
+                            36CAED5DBC8D4D258D770951 /* rtl_tcp */,
+                            F25DC55F98A1453395FCE412 /* rtl_test */,
+                            6A579546F3994F42BEBAEB9C /* rtlsdr_shared */,
+                            8E7DEB521A47409AAB6CCD00 /* rtlsdr_static */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              A5ACD66BFBAA4CE5B7BE9221 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              7F2FF13E29BB480C898C2405 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni -f /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              1DE034FE29AD4A44915D153F /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              A3F93D98D0844D34895E300F /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni -f /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              EBB4993190B047C0A09A1FB9 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              7C65EBBF976246C3865A4B60 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni -f /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              CC02BD466302453A94063072 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              8CD71811D16C414A90DB46D6 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni -f /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              0BE79C860BBE4672A8F5BC90 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src -f /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeScripts/rtl_fm_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              24386D2D80B84FB09702FF9D /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src -f /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeScripts/rtl_sdr_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              8EB8A2F1BB2547E7B615D8FA /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src -f /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeScripts/rtl_tcp_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              4D61B6D6C31D4EC8A7906305 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src -f /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeScripts/rtl_test_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              07D5AD66D55C4A10BD47E10F /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src -f /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeScripts/rtlsdr_shared_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              EA5D4515672D4391A8BF1B71 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src -f /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/CMakeScripts/rtlsdr_static_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              941E94B9591C414B908EF757 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            10098287384D490EB88032BD /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_fm.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              A582CD1760D041FB91F011BA /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            77436A9FD86D434EB6200EA7 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_sdr.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              CC2EC215AD504B55BF7849A0 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            8F8051A7A4DF4A67A1DE3F48 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_tcp.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              3DD5F308E31D479C99314FC3 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            07A153A89A5F49D5A0A4047B /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/rtl_test.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              54E4CE98676A418087FAF9B7 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            E1D29EDE44DB4B539162A232 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/librtlsdr.c */,
+                            F922600549894C23B80224A6 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_e4k.c */,
+                            7EC38D878D954CFF91BB2FAD /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc0012.c */,
+                            EF3E9F75EA4548B1AA9BCEDC /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc0013.c */,
+                            2BEE529425234CF092CA8E9B /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc2580.c */,
+                            403C1BDE025A41DBBF1206A8 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_r820t.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              9B8576D230AC4A66ACE63363 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            71A42F191E0E4C2986250A3E /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/librtlsdr.c */,
+                            8830951460E14398BC5AC838 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_e4k.c */,
+                            6F4E34B1411B422493678041 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc0012.c */,
+                            E537B721B274481089BEBCFD /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc0013.c */,
+                            522D0D9143F649C29AD3901F /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_fc2580.c */,
+                            4D5F8D40FC40462D966E39A8 /* /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/tuner_r820t.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              ACCBD96A9FD94A93988170F6 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 8D2D540AE8394A889E0AC327 /* ZERO_CHECK */;
+                     targetProxy = DD1636B049654DCCAD2434EB /* PBXContainerItemProxy */;
+              };
+              08C7ED7021F14271B4B97596 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 6A579546F3994F42BEBAEB9C /* rtlsdr_shared */;
+                     targetProxy = B8F2B38D15D14517A4CC788F /* PBXContainerItemProxy */;
+              };
+              F67E6C8070B345419F42ADD5 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 8E7DEB521A47409AAB6CCD00 /* rtlsdr_static */;
+                     targetProxy = 83ED69CBDB3E4E83AC345646 /* PBXContainerItemProxy */;
+              };
+              C003C9D8BCED4281B8AC6230 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = C5DC821648624F97870FA7D0 /* rtl_sdr */;
+                     targetProxy = 2A4E26B1C6BE4476A14CE1AB /* PBXContainerItemProxy */;
+              };
+              EAB52C8C8AB0409882E92495 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 36CAED5DBC8D4D258D770951 /* rtl_tcp */;
+                     targetProxy = 208A1ABDB8334D30B405EFDA /* PBXContainerItemProxy */;
+              };
+              4FC3F261154B421E9DB118EC /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = F25DC55F98A1453395FCE412 /* rtl_test */;
+                     targetProxy = F94AB185DABF46FBA69C6D53 /* PBXContainerItemProxy */;
+              };
+              6550DB11E23345F69416A5EC /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 7C90F4355F624637BE90B583 /* rtl_fm */;
+                     targetProxy = A9549217951B4030A19C8BEB /* PBXContainerItemProxy */;
+              };
+              E62AED341556495F90AC9FF2 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 874A5C69C0784F06B88748C6 /* ALL_BUILD */;
+                     targetProxy = 682B3FC924D0487EB8650ACD /* PBXContainerItemProxy */;
+              };
+              9C5AC14915764D08B950A60F /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 8D2D540AE8394A889E0AC327 /* ZERO_CHECK */;
+                     targetProxy = 24C5682E29EE4E899154F63A /* PBXContainerItemProxy */;
+              };
+              9ABBAA155D42446684857C0E /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 8D2D540AE8394A889E0AC327 /* ZERO_CHECK */;
+                     targetProxy = 9241E225C0694103BB4C1EBB /* PBXContainerItemProxy */;
+              };
+              5032693A2AF049AE94044254 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 6A579546F3994F42BEBAEB9C /* rtlsdr_shared */;
+                     targetProxy = A659B969267A45F3B105FA2B /* PBXContainerItemProxy */;
+              };
+              4BC902C2CE9E4313A025BD21 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 8D2D540AE8394A889E0AC327 /* ZERO_CHECK */;
+                     targetProxy = 1825FF70FFE14A3E9D9E8572 /* PBXContainerItemProxy */;
+              };
+              BF70C6E5CD204901958C937F /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 6A579546F3994F42BEBAEB9C /* rtlsdr_shared */;
+                     targetProxy = 7F7E8095A07143498CC4999B /* PBXContainerItemProxy */;
+              };
+              B8140EA3E94045CE8C52D9AA /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 8D2D540AE8394A889E0AC327 /* ZERO_CHECK */;
+                     targetProxy = C254BB098ACE4400B4F471B6 /* PBXContainerItemProxy */;
+              };
+              70D40A5FEDFD44599FEDC23C /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 6A579546F3994F42BEBAEB9C /* rtlsdr_shared */;
+                     targetProxy = 9013898CE9064AE4A47DB469 /* PBXContainerItemProxy */;
+              };
+              23DE8B910281434A991047E4 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 8D2D540AE8394A889E0AC327 /* ZERO_CHECK */;
+                     targetProxy = BBD32E73FB54424CAB3B8F92 /* PBXContainerItemProxy */;
+              };
+              9106C76947044CBABA4CF3B3 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 6A579546F3994F42BEBAEB9C /* rtlsdr_shared */;
+                     targetProxy = 8E951EE2BEF34219AEB28C09 /* PBXContainerItemProxy */;
+              };
+              F003AC74E2884A0A8A9CB639 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 8D2D540AE8394A889E0AC327 /* ZERO_CHECK */;
+                     targetProxy = EC4C79B6C97A4F35AB8C06AC /* PBXContainerItemProxy */;
+              };
+              E218675E6C3D43A088E42057 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 8D2D540AE8394A889E0AC327 /* ZERO_CHECK */;
+                     targetProxy = 714C771277A04790ACE66358 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              4D9C49FCF64D43D6A5AB1F37 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/build";
+                     };
+                     name = Debug;
+              };
+              7597809DE3C2416497EBC7A4 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/build";
+                     };
+                     name = Release;
+              };
+              A48431F62FEC4A45A195B56B /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/build";
+                     };
+                     name = MinSizeRel;
+              };
+              66B12C2854D1483BA9C105CA /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/build";
+                     };
+                     name = RelWithDebInfo;
+              };
+              59342B726E434BC091067D8D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              A82E0C605B904BA6AC7A87A1 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              62FAB68EFA314AC484A0B89D /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              5BFC92160DF2453687049081 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              F349C2EC917F440DAF2E2AC3 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              B5C68BB8F2CF4CE88FDE7D41 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              D5787E5BD883474CAC2CA3F6 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              3777116C31154AC5A02C56DB /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              DCB4A05A2CB648CCB0D921DF /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              065BC3A5A72449EE80809564 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              97A88EEACE13430E8C9F99AF /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              0021F57088FF47F3922940DB /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              7943DFDDC1074FEF83C66CEF /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = uninstall;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              EF49FB96C4264BB8AD33E9F3 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = uninstall;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              46A6C7D1E30742668218FB3F /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = uninstall;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              A7D34654457A4FEBAAF35280 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = uninstall;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              F1041A59B3E445FEABC012AD /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/Debug/librtlsdr.dylib /opt/local/lib/libusb-1.0.dylib -lpthread -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtl_fm;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              66CED90909F24259A8E7EAF1 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = " -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/Release/librtlsdr.dylib /opt/local/lib/libusb-1.0.dylib -lpthread -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtl_fm;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              3B0FE71D1B3F4087820DE6C6 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/MinSizeRel/librtlsdr.dylib /opt/local/lib/libusb-1.0.dylib -lpthread -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtl_fm;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              42ECAD2BBF0F4DEF94EF4B87 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/RelWithDebInfo/librtlsdr.dylib /opt/local/lib/libusb-1.0.dylib -lpthread -lm";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtl_fm;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              A74891766A644A49B8D30536 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/Debug/librtlsdr.dylib /opt/local/lib/libusb-1.0.dylib -lpthread";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtl_sdr;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              558D4F4B5805499180482528 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = " -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/Release/librtlsdr.dylib /opt/local/lib/libusb-1.0.dylib -lpthread";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtl_sdr;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              14173F6FD5B04C0D8B51496C /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/MinSizeRel/librtlsdr.dylib /opt/local/lib/libusb-1.0.dylib -lpthread";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtl_sdr;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              5B817AE653F84443822BE28C /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/RelWithDebInfo/librtlsdr.dylib /opt/local/lib/libusb-1.0.dylib -lpthread";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtl_sdr;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              0555A44752754C3FA0899327 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/Debug/librtlsdr.dylib /opt/local/lib/libusb-1.0.dylib -lpthread";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtl_tcp;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              C295ADF7434B448781BD1544 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = " -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/Release/librtlsdr.dylib /opt/local/lib/libusb-1.0.dylib -lpthread";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtl_tcp;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              904D486984A44478AFA316DD /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/MinSizeRel/librtlsdr.dylib /opt/local/lib/libusb-1.0.dylib -lpthread";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtl_tcp;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              E1E2115E5AF648CEAF378417 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/RelWithDebInfo/librtlsdr.dylib /opt/local/lib/libusb-1.0.dylib -lpthread";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtl_tcp;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              AA65A38A84D54BD38E1F940B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/Debug/librtlsdr.dylib /opt/local/lib/libusb-1.0.dylib -lpthread";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtl_test;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              690A5A12BE104E29B7FBF2A2 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = " -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/Release/librtlsdr.dylib /opt/local/lib/libusb-1.0.dylib -lpthread";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtl_test;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              F0DA34ABF5CE49429ABA5F26 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/MinSizeRel/librtlsdr.dylib /opt/local/lib/libusb-1.0.dylib -lpthread";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtl_test;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              51E0B026F04F48EC972B9FF4 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/RelWithDebInfo/librtlsdr.dylib /opt/local/lib/libusb-1.0.dylib -lpthread";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtl_test;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              26101C1D1ADB45238CC4FAAD /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", rtlsdr_EXPORTS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/Debug";
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "   -fPIC  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names /opt/local/lib/libusb-1.0.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtlsdr;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              67B35A162F8141C6B9B993C4 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", rtlsdr_EXPORTS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/Release";
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = " -DNDEBUG -fPIC  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names /opt/local/lib/libusb-1.0.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtlsdr;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              414A4C8A5D3643A5B327865B /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", rtlsdr_EXPORTS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/MinSizeRel";
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names /opt/local/lib/libusb-1.0.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtlsdr;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              EDE910110E5846318C3594C8 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", rtlsdr_EXPORTS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src/RelWithDebInfo";
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "       -DNDEBUG -fPIC  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names /opt/local/lib/libusb-1.0.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtlsdr;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              A1B7382517014DDCA8D3537A /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", rtlsdr_STATIC, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtlsdr;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              F1AC9759F34840B8890F2EC9 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", rtlsdr_STATIC, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtlsdr;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              BD3AAB55BBB743F0AD058B1E /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", rtlsdr_STATIC, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtlsdr;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              7645ECF945254E008BAF11C9 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", rtlsdr_STATIC, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/include", "/opt/local/include/libusb-1.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = rtlsdr;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sciencectn/Documents/CURRENT_Lab/android-rtlsdr-as/app/jni/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              1D711AC6066E4B31A5412D4D /* Build configuration list for PBXProject  "rtlsdr" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            4D9C49FCF64D43D6A5AB1F37 /* Debug */,
+                            7597809DE3C2416497EBC7A4 /* Release */,
+                            A48431F62FEC4A45A195B56B /* MinSizeRel */,
+                            66B12C2854D1483BA9C105CA /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              C92AE96214394326AE7EC80F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            59342B726E434BC091067D8D /* Debug */,
+                            A82E0C605B904BA6AC7A87A1 /* Release */,
+                            62FAB68EFA314AC484A0B89D /* MinSizeRel */,
+                            5BFC92160DF2453687049081 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              096E8BF61A5B4B868C8207A5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            F349C2EC917F440DAF2E2AC3 /* Debug */,
+                            B5C68BB8F2CF4CE88FDE7D41 /* Release */,
+                            D5787E5BD883474CAC2CA3F6 /* MinSizeRel */,
+                            3777116C31154AC5A02C56DB /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              E3E0A5C5C59F474A89908AB0 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            DCB4A05A2CB648CCB0D921DF /* Debug */,
+                            065BC3A5A72449EE80809564 /* Release */,
+                            97A88EEACE13430E8C9F99AF /* MinSizeRel */,
+                            0021F57088FF47F3922940DB /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              52F81B3A341F487FA3028DF8 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            7943DFDDC1074FEF83C66CEF /* Debug */,
+                            EF49FB96C4264BB8AD33E9F3 /* Release */,
+                            46A6C7D1E30742668218FB3F /* MinSizeRel */,
+                            A7D34654457A4FEBAAF35280 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              C9B94A2CC79E414EB0806C9E /* Build configuration list for PBXNativeTarget "rtl_fm" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            F1041A59B3E445FEABC012AD /* Debug */,
+                            66CED90909F24259A8E7EAF1 /* Release */,
+                            3B0FE71D1B3F4087820DE6C6 /* MinSizeRel */,
+                            42ECAD2BBF0F4DEF94EF4B87 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              B228A8353DB04C54B35157DE /* Build configuration list for PBXNativeTarget "rtl_sdr" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            A74891766A644A49B8D30536 /* Debug */,
+                            558D4F4B5805499180482528 /* Release */,
+                            14173F6FD5B04C0D8B51496C /* MinSizeRel */,
+                            5B817AE653F84443822BE28C /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              B9C7665F87B245CAA564DD0C /* Build configuration list for PBXNativeTarget "rtl_tcp" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            0555A44752754C3FA0899327 /* Debug */,
+                            C295ADF7434B448781BD1544 /* Release */,
+                            904D486984A44478AFA316DD /* MinSizeRel */,
+                            E1E2115E5AF648CEAF378417 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              F4EC977373CF434A9B59C54A /* Build configuration list for PBXNativeTarget "rtl_test" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            AA65A38A84D54BD38E1F940B /* Debug */,
+                            690A5A12BE104E29B7FBF2A2 /* Release */,
+                            F0DA34ABF5CE49429ABA5F26 /* MinSizeRel */,
+                            51E0B026F04F48EC972B9FF4 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              C44E8577AB85418E83821BDB /* Build configuration list for PBXNativeTarget "rtlsdr_shared" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            26101C1D1ADB45238CC4FAAD /* Debug */,
+                            67B35A162F8141C6B9B993C4 /* Release */,
+                            414A4C8A5D3643A5B327865B /* MinSizeRel */,
+                            EDE910110E5846318C3594C8 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              15572508767F411C90919787 /* Build configuration list for PBXNativeTarget "rtlsdr_static" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            A1B7382517014DDCA8D3537A /* Debug */,
+                            F1AC9759F34840B8890F2EC9 /* Release */,
+                            BD3AAB55BBB743F0AD058B1E /* MinSizeRel */,
+                            7645ECF945254E008BAF11C9 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 0CFBCD0AC7484FDDB8BA0E7A;
+}

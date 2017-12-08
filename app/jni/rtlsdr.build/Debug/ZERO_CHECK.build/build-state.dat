@@ -1,0 +1,29 @@
+TZERO_CHECK
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/sciencectn/Documents/CURRENT\ Lab/librtlsdr-android/rtlsdr.build/Debug/ZERO_CHECK.build/Script-1919EC06CE504592A1C78350.sh
+
+N/Users/sciencectn/Documents/CURRENT Lab/librtlsdr-android/rtlsdr.build/Debug/ZERO_CHECK.build/Script-1919EC06CE504592A1C78350.sh
+c00000000534863D800000000000000CF
+t1397253080
+s207
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesddd153589bf8b841^d1e654589bf8b841^---0#1#1#--18"Check dependencies36"62CDAC81-964B-415D-BFB6-92F8241A2226-
+
+CPhaseScriptExecution CMake\ Rules /Users/sciencectn/Documents/CURRENT\ Lab/librtlsdr-android/rtlsdr.build/Debug/ZERO_CHECK.build/Script-1919EC06CE504592A1C78350.sh
+s418945880.342860
+e418945880.406005
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/sciencectn/Documents/CURRENT Lab/librtlsdr-android/rtlsdr.build/Debug/ZERO_CHECK.build/Script-1919EC06CE504592A1C78350.sh
+oecho ""
+o
+omake -f /Users/sciencectn/Documents/CURRENT\ Lab/librtlsdr-android/CMakeScripts/ReRunCMake.make
+omake[1]: `/Users/sciencectn/Documents/CURRENT Lab/librtlsdr-android/CMakeFiles/cmake.check_cache' is up to date.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'104"PhaseScriptExecution CMake\ Rules rtlsdr.build/Debug/ZERO_CHECK.build/Script-1919EC06CE504592A1C78350.shf0fa58589bf8b841^13f067589bf8b841^-218"echo ""make -f /Users/sciencectn/Documents/CURRENT\ Lab/librtlsdr-android/CMakeScripts/ReRunCMake.makemake[1]: `/Users/sciencectn/Documents/CURRENT Lab/librtlsdr-android/CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-418945880#0#8#-0#-----2@96"make -f /Users/sciencectn/Documents/CURRENT\ Lab/librtlsdr-android/CMakeScripts/ReRunCMake.make-418945880#9#96#-0#-----2@113"make[1]: `/Users/sciencectn/Documents/CURRENT Lab/librtlsdr-android/CMakeFiles/cmake.check_cache' is up to date.-418945880#105#113#-0#-----0#0#1#--321"PhaseScriptExecution CMake\ Rules rtlsdr.build/Debug/ZERO_CHECK.build/Script-1919EC06CE504592A1C78350.sh    cd "/Users/sciencectn/Documents/CURRENT Lab/librtlsdr-android"    /bin/sh -c \"/Users/sciencectn/Documents/CURRENT\ Lab/librtlsdr-android/rtlsdr.build/Debug/ZERO_CHECK.build/Script-1919EC06CE504592A1C78350.sh\"36"4A85DFB5-3FF0-482F-A579-CEE8562BAB49-
+bBE204340-F0EA-43C8-A64C-1082D8F505FD
+
