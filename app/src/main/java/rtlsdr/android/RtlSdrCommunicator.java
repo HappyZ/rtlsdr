@@ -107,12 +107,12 @@ public class RtlSdrCommunicator {
                         try {
                             bw = MainActivity.bw;
                             //added Ana for cyclostationary IQ samples
-                            sampleFile = new FileOutputStream(
-                                    new File(
-                                            Environment.getExternalStorageDirectory().getPath(),
-                                            filename + "_raw.dat"
-                                    )
-                            );
+//                            sampleFile = new FileOutputStream(
+//                                    new File(
+//                                            Environment.getExternalStorageDirectory().getPath(),
+//                                            filename + "_raw.dat"
+//                                    )
+//                            );
 
                         } catch (Exception e) {
                         }
@@ -135,8 +135,8 @@ public class RtlSdrCommunicator {
                                     read_size = socketIn.read(read_buf);
     
                                     //added Ana
-                                    sampleFile.write(read_buf,0,read_size);
-                                    sampleFile.flush();
+                                    //sampleFile.write(read_buf,0,read_size);
+                                    //sampleFile.flush();
 
 
                                     byte[] buf = null;
@@ -221,7 +221,7 @@ public class RtlSdrCommunicator {
                 try {
 
                     bw.close();
-                    sampleFile.close();
+                    //sampleFile.close();
 
                     Message msg = handler.obtainMessage();
                     handler.sendMessage(msg);
