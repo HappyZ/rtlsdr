@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">RTLSDR</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">RTLSDR</string>
+    <string name="filename_automatic">Automatic</string>
+    <string name="filename_user_definable">User definable</string>
+
+
+
+</resources>
