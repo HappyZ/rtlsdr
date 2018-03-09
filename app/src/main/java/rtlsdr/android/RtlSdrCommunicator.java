@@ -82,6 +82,7 @@ public class RtlSdrCommunicator {
         final int gain = tmpGain;
         final String filename = tmpName;
         final int number_samples = tmpSample;
+        final boolean raw_file_output_flag = false;
 
         final Handler handler = new Handler() {
 
@@ -107,12 +108,14 @@ public class RtlSdrCommunicator {
                         try {
                             bw = MainActivity.bw;
                             //added Ana for cyclostationary IQ samples
-//                            sampleFile = new FileOutputStream(
-//                                    new File(
-//                                            Environment.getExternalStorageDirectory().getPath(),
-//                                            filename + "_raw.dat"
-//                                    )
-//                            );
+                            if (raw_file_output_flag) {
+                                sampleFile = new FileOutputStream(
+                                        new File(
+                                                Environment.getExternalStorageDirectory().getPath(),
+                                                filename + "_raw.dat"
+                                        )
+                                );
+                            }
 
                         } catch (Exception e) {
                         }
@@ -135,9 +138,10 @@ public class RtlSdrCommunicator {
                                     read_size = socketIn.read(read_buf);
     
                                     //added Ana
-                                    //sampleFile.write(read_buf,0,read_size);
-                                    //sampleFile.flush();
-
+                                    if (raw_file_output_flag) {
+                                        sampleFile.write(read_buf, 0, read_size);
+                                        sampleFile.flush();
+                                    }
 
                                     byte[] buf = null;
                                     if (remain_bytes != null) {
@@ -221,7 +225,8 @@ public class RtlSdrCommunicator {
                 try {
 
                     bw.close();
-                    //sampleFile.close();
+                    if (raw_file_output_flag)
+                        sampleFile.close();
 
                     Message msg = handler.obtainMessage();
                     handler.sendMessage(msg);
